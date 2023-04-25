@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import AddButton from './src/components/button/AddButton';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -92,8 +93,9 @@ function App(): JSX.Element {
           <LearnMoreLinks />
         </View>
       </ScrollView>
-
+      <AddButton onPress={() => console.log('Add button pressed')} />
     </SafeAreaView>
+    
   );
 }
 
