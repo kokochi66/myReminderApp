@@ -13,4 +13,8 @@ export const styles = StyleSheet.create({
         top: 10,
         right: 10,
     },
+    buttonImage: {
+        width: 32,
+        height: 32,
+    },
 });

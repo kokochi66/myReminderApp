@@ -1,6 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, Text } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { TouchableOpacity, Text, Image } from 'react-native';
 import { styles } from './AddButton.styles';
 
 type AddButtonProps = {
@@ -10,7 +9,10 @@ type AddButtonProps = {
 const AddButton = ({ onPress }: AddButtonProps) => {
   return (
     <TouchableOpacity style={styles.button} onPress={onPress}>
-         <Icon name="plus" size={24} color="#fff" />
+      <Image
+        source={require('./../../assets/image/plus-button.png')} // 이미지 파일 경로를 입력하세요.
+        style={styles.buttonImage}
+      />
     </TouchableOpacity>
   );
 };
