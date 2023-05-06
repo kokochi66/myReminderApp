@@ -1,121 +1,198 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
-import type {PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
   View,
+  Text,
+  Image,
+  TouchableOpacity,
+  ScrollView,
+  SafeAreaView,
+  StyleSheet,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-import AddButton from './src/components/button/AddButton';
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+const App = () => {
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
-}
-
-function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
+    <SafeAreaView style={styles.container}>
+      <ScrollView>
+        {/* 프로필 영역 */}
+        <View style={styles.profileContainer}>
+          <Image
+            style={styles.profileImage}
+            source={require('./src/assets/image/test-profile.jpg')}
+          />
+          <Text style={styles.profileName}>이쭈냥이오</Text>
         </View>
+
+        {/* 버튼 영역 */}
+        <View style={styles.buttonContainer}>
+          <TouchableOpacity style={styles.createTabButton}>
+            <Text style={styles.buttonText}>목표 설정</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.editProfileButton}>
+            <Text style={styles.buttonText}>프로필 수정</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* 콘텐츠 영역 */}
+        <View style={styles.contentContainer}>
+          {/* 콘텐츠 항목 */}
+          <View style={styles.contentItem}>
+            <View style={[styles.contentResult, {backgroundColor: 'red'}]}>
+              <Text style={styles.resultText}>패배</Text>
+              <View style={styles.separatorLine} />
+              <Text style={styles.streakText}>연승 3</Text>
+            </View>
+            <View style={styles.contentTitle}>
+              <Text style={styles.titleText}>핵심 목표</Text>
+              <Text style={styles.dateText}>2023년 5월 3일</Text>
+            </View>
+          </View>
+          <View style={styles.contentItem}>
+            <View style={[styles.contentResult]}>
+              <Text style={styles.resultText}>승리</Text>
+              <View style={styles.separatorLine} />
+              <Text style={styles.streakText}>연승 3</Text>
+            </View>
+            <View style={styles.contentTitle}>
+              <Text style={styles.titleText}>핵심 목표</Text>
+              <Text style={styles.dateText}>2023년 5월 3일</Text>
+            </View>
+          </View>
+          <View style={styles.contentItem}>
+            <View style={[styles.contentResult]}>
+              <Text style={styles.resultText}>승리</Text>
+              <View style={styles.separatorLine} />
+              <Text style={styles.streakText}>연승 3</Text>
+            </View>
+            <View style={styles.contentTitle}>
+              <Text style={styles.titleText}>핵심 목표</Text>
+              <Text style={styles.dateText}>2023년 5월 3일</Text>
+            </View>
+          </View>
+          <View style={styles.contentItem}>
+            <View style={[styles.contentResult]}>
+              <Text style={styles.resultText}>승리</Text>
+              <View style={styles.separatorLine} />
+              <Text style={styles.streakText}>연승 3</Text>
+            </View>
+            <View style={styles.contentTitle}>
+              <Text style={styles.titleText}>핵심 목표</Text>
+              <Text style={styles.dateText}>2023년 5월 3일</Text>
+            </View>
+          </View>
+        </View>
+        
       </ScrollView>
-      <AddButton onPress={() => console.log('Add button pressed')} />
     </SafeAreaView>
-    
   );
-}
+};
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  container: {
+    flex: 1,
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
+  profileContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderBottomWidth: 1,
+    borderColor: '#ccc',
   },
-  sectionDescription: {
-    marginTop: 8,
+  profileImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  profileName: {
+    marginLeft: 12,
     fontSize: 18,
-    fontWeight: '400',
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 4,
   },
-  highlight: {
-    fontWeight: '700',
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    paddingVertical: 8,
+    borderBottomWidth: 1,
+    borderColor: '#ccc',
+  },
+  createTabButton: {
+    backgroundColor: 'blue',
+    paddingHorizontal: 50,
+    paddingVertical: 12,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  editProfileButton: {
+    backgroundColor: 'gray',
+    paddingHorizontal: 50,
+    paddingVertical: 12,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#ccc',
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 16,
+  },
+  contentContainer: {
+    padding: 10,
+  },
+  contentItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
+    marginBottom: 10,
+
+    borderColor: '#ccc',
+    borderWidth: 1,
+  },
+  contentResult: {
+    borderRightWidth: 1,
+    borderRightColor: '#ccc',
+    width: 60,
+    height: '100%',
+    backgroundColor: 'blue',
+  },
+  resultText: {
+    fontSize: 16,
+    color: 'white', // 글자색 변경
+    textAlign: 'center',
+  },
+  streakText: {
+    fontSize: 14,
+    color: 'white', // 글자색 변경
+    textAlign: 'center',
+  },
+  separatorLine: {
+    width: '100%',
+    height: 5,
+    borderColor: 'white',
+  },
+  contentTitle: {
+    flex: 1,
+    marginLeft: 16,
+  },
+  titleText: {
+    fontSize: 18,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 4,
+  },
+  dateText: {
+    fontSize: 12,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    padding: 4,
   },
 });
+
 
 export default App;
