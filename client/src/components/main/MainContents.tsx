@@ -2,7 +2,7 @@ import React from 'react';
 import { TouchableOpacity, Text, Image, View } from 'react-native';
 import { styles } from './MainContents.styles';
 
-type MainContentsProps = {};
+type MainContentsProps = { };
 
 const MainContents = () => {
   return (
