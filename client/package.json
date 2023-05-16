@@ -10,8 +10,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/datetimepicker": "^7.1.0",
+    "native-base": "^3.4.28",
     "react": "18.2.0",
-    "react-native": "0.71.7"
+    "react-native": "0.71.7",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-svg": "^12.1.1",
+    "react-native-web": "^0.17.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

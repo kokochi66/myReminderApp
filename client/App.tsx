@@ -10,6 +10,7 @@ import MainTab from './src/components/main/MainTab';
 import EditGoal from './src/components/main/EditGoal';
 import AddGoal from './src/components/main/AddGoal';
 import EditProfile from './src/components/main/EditProfile';
+import { NativeBaseProvider } from 'native-base';
 
 const App = () => {
   const [selectedTab, setSelectedTab] = useState<string>('MainContents');
@@ -31,19 +32,21 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView>
-        {/* 프로필 영역 */}
-        <MainProfile></MainProfile>
+    <NativeBaseProvider>
+      <SafeAreaView style={styles.container}>
+        <ScrollView>
+          {/* 프로필 영역 */}
+          <MainProfile></MainProfile>
 
-        {/* 버튼 영역 */}
-        <MainTab setSelectedTab={setSelectedTab}></MainTab>
+          {/* 버튼 영역 */}
+          <MainTab setSelectedTab={setSelectedTab}></MainTab>
 
-        {/* 콘텐츠 영역 */}
-        {renderContent()}      
-        
-      </ScrollView>
-    </SafeAreaView>
+          {/* 콘텐츠 영역 */}
+          {renderContent()}
+
+        </ScrollView>
+      </SafeAreaView>
+    </NativeBaseProvider>
   );
 };
 
