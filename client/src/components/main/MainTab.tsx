@@ -10,10 +10,9 @@ interface MainTabProps {
 const MainTab: React.FC<MainTabProps> = ({ setSelectedTab }) => {
   return (
     <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-      <Button title="Main" onPress={() => setSelectedTab('MainContents')} />
-      <Button title="Edit Goal" onPress={() => setSelectedTab('EditGoal')} />
-      <Button title="Add Goal" onPress={() => setSelectedTab('AddGoal')} />
-      <Button title="Edit Profile" onPress={() => setSelectedTab('EditProfile')} />
+      <Button title="메인" onPress={() => setSelectedTab('MainContents')} />
+      <Button title="목표 추가" onPress={() => setSelectedTab('AddGoal')} />
+      <Button title="프로필 수정" onPress={() => setSelectedTab('EditProfile')} />
     </View>
   );
 };

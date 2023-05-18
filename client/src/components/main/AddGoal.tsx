@@ -3,50 +3,22 @@ import { Box, Text, FormControl, Input, Divider, Button, View, ScrollView, Radio
 import { StyleSheet } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import JWDatePicker from '../util/JWDatePicker';
+import { GoalService } from '../../service/StorageService';
 
 const AddGoal = () => {
   const [goalType, setGoalType] = useState<string>('study');
   const [startDate, setStartDate] = useState<Date>(new Date());
   const [endDate, setEndDate] = useState<Date>(new Date());
-  const [displayDate, setDisplayDate] = useState<Date>(new Date());
   const [criteria, setCriteria] = useState<string>('1');
   const [description, setDescription] = useState<string>('');
-
-  const [showDatePicker, setShowDatePicker] = useState<boolean>(false);
-
-  let selectedDateType: string = 'start';
 
   const saveGoal = () => {
     const goal: Goal = { goalType, startDate, endDate, criteria, description };
     console.log(goal);
+    GoalService.saveGoal(goal);
     // TODO: goal 객체를 서버로 전송하거나, 로컬 저장소에 저장하는 등의 작업을 수행합니다.
   };
 
-  const onSetDate = (event: Event, selectedDate?: Date) => {
-    console.log('1', showDatePicker);
-    if (selectedDate && selectedDateType === 'start') {
-      setStartDate(selectedDate);
-    } else if (selectedDate && selectedDateType === 'end') {
-      setEndDate(selectedDate);
-    }
-    console.log('2', showDatePicker);
-    setShowDatePicker(false);
-    console.log('3', showDatePicker);
-  };
-
-  const showStartDateTimePicker = () => {
-    console.log('showStartDateTimePicker');
-    selectedDateType = 'start';
-    setDisplayDate(startDate);
-    setShowDatePicker(true);
-  };
-
-  const showEndDateTimePicker = () => {
-    console.log('showEndDateTimePicker');
-    selectedDateType = 'end';
-    setDisplayDate(endDate);
-    setShowDatePicker(true);
-  };
 
   const formatDate = (date: Date): string => {
     const year = date.getFullYear();
@@ -55,6 +27,8 @@ const AddGoal = () => {
     const formattedDate = `${year}-${month}-${day}`;
     return formattedDate;
   }
+
+  const handleChange = (text: string) => setDescription(text);
 
 
   return (
@@ -117,7 +91,7 @@ const AddGoal = () => {
 
       <Box mb="5" mt="1">
         <FormControl.Label>설명</FormControl.Label>
-        <Input placeholder="설명 문구 입력" />
+        <Input value={description} onChangeText={handleChange} placeholder="설명 문구 입력" />
       </Box>
 
       <Button onPress={saveGoal}>저장</Button>
