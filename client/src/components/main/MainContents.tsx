@@ -1,19 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import { Box, FlatList, HStack, Heading, Avatar, VStack, Text, Spacer, ScrollView } from 'native-base';
+import { Box, FlatList, HStack, Heading, Avatar, VStack, Text, Spacer, ScrollView, Button } from 'native-base';
 import { StyleSheet } from 'react-native';
 import { NavigationContainer, useIsFocused, useNavigation } from '@react-navigation/native';
 import { DailyGoalService } from '../../service/StorageService';
+import { DailyGoalStatus, DailyGoal } from '../../interface/GoalInfo';
 
 type MainContentsProps = {};
 
 const MainContents = () => {
+
+  const images: { [key: string]: any, FAILED: any, SUCCESS: any, IN_PROGRESS: any } = {
+    FAILED: require('../../assets/icon/fail.jpg'),
+    SUCCESS: require('../../assets/icon/success.png'),
+    IN_PROGRESS: require('../../assets/icon/process.png'),
+    // 다른 이미지들...
+  };
 
   const data = [{
     id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
     fullName: "Aafreen Khan",
     timeStamp: "12:47 PM",
     recentText: "Good Day!",
-    avatarUrl: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+    avatarUrl: "../../assets/icon/fail.jpg"
   }, {
     id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
     fullName: "Sujitha Mathur",
@@ -43,47 +51,59 @@ const MainContents = () => {
   const [dailyGoals, setDailyGoals] = useState<DailyGoal[]>([]);
 
   useEffect(() => {
-    DailyGoalService.createTodayDailyGoal('IN_PROGRESS');
-    DailyGoalService.getDailyGoals(1).then(res => {
-      console.log('res', res);
-      setDailyGoals(res);
-    }).catch(error => {
-      console.log('error', error);
+    DailyGoalService.createTodayDailyGoal(DailyGoalStatus.IN_PROGRESS).then(todayDailyGoalRes => {
+      DailyGoalService.createPreviousDailyGoals().then(prevDailyGoalRes => {
+        console.log('prev = ', prevDailyGoalRes);
+        DailyGoalService.getDailyGoals(1).then(dailyGoalResult => {
+          console.log('res', dailyGoalResult);
+          setDailyGoals(dailyGoalResult);
+        }).catch(error => {
+          console.log('error', error);
+        });
+      });
+
     });
+
+    // DailyGoalService.deleteAllDailyGoals();
+
   }, []);
+
+  const formatDate = (date: Date): string => {
+    console.log(date);
+    const dateString = date.toISOString().split('T')[0];
+    return `dailyGoal-${dateString}`;
+  }
 
 
 
   return (
-    <FlatList style={styles.container} data={data} renderItem={({
+    <FlatList pt="5" style={styles.container} data={dailyGoals} renderItem={({
       item
     }) =>
-      <Box borderBottomWidth="1" _dark={{ borderColor: "muted.50" }} borderColor="muted.800" pl={["0", "4"]} pr={["0", "5"]} py="2">
+      <Button variant="outline" _dark={{ borderColor: "muted.50" }} borderColor="muted.800" pl={["0", "4"]} pr={["0", "5"]} py="2" mb="1">
         <HStack space={[2, 3]} justifyContent="space-between">
-          <Avatar size="48px" source={{
-            uri: item.avatarUrl
-          }} />
+          <Avatar size="48px" source={images[item.dailyGoalStatus.toString()]} />
           <VStack>
             <Text _dark={{
               color: "warmGray.50"
             }} color="coolGray.800" bold>
-              {item.fullName}
+              {item.dailyGoalStatus}
             </Text>
             <Text color="coolGray.600" _dark={{
               color: "warmGray.200"
             }}>
-              {item.recentText}
+              {item.streakCount}
             </Text>
           </VStack>
           <Spacer />
           <Text fontSize="xs" _dark={{
             color: "warmGray.50"
           }} color="coolGray.800" alignSelf="flex-start">
-            {item.timeStamp}
+            {String(item.dailyGoalDate)}
           </Text>
         </HStack>
-      </Box>
-    } keyExtractor={item => item.id} />
+      </Button>
+    } keyExtractor={item => String(item.dailyGoalDate)} />
   );
 };
 

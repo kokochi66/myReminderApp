@@ -1,15 +1,15 @@
-interface Goal {
-  goalType: string;
+export interface Goal {
+  goalType: 'SLEEP' | 'EXCERCISE' | "STUDY";
   startDate: Date;
   endDate: Date;
   criteria: string;
   description: string;
 }
 
-interface DailyGoal {
+export interface DailyGoal {
   goalList: Goal[];
   dailyGoalDate: Date;
-  dailyGoalStatus: string;
+  dailyGoalStatus: DailyGoalStatus;
   streakCount: number;
 }
 
@@ -20,4 +20,10 @@ interface SleepCriteria {
 
 interface TimeCriteria {
   hours: number; // 1 ~ 20
+}
+
+export enum DailyGoalStatus {
+  FAILED = 'FAILED',
+  SUCCESS = 'SUCCESS',
+  IN_PROGRESS = 'IN_PROGRESS',
 }

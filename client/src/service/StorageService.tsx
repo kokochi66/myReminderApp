@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { DailyGoalStatus, DailyGoal, Goal } from '../interface/GoalInfo';
 
 const storeData = async (key: string, value: any) => {
     try {
@@ -73,20 +74,19 @@ export const DailyGoalService = {
 
         const sortedKeys = dailyGoalKeys.sort((a, b) => b.localeCompare(a)); // Sort the keys in descending order (latest first)
         const start = (page - 1) * 10;
-        const end = start + 10;
+        const end = start + 100;
         const paginatedKeys = sortedKeys.slice(start, end); // get the keys for the requested page
         // console.log('pageKeys', paginatedKeys);
 
         const dailyGoals = await Promise.all(paginatedKeys.map(key => getData(key))); // fetch all the dailyGoals for the page
         return dailyGoals;
     },
-    createTodayDailyGoal: async (status: string) => {
+    createTodayDailyGoal: async (status: DailyGoalStatus): Promise<any> => {
         const today = new Date();
         const dateString = today.toISOString().split('T')[0]; // Get YYYY-MM-DD string
         const dailyGoalKey = `dailyGoal-${dateString}`;
 
         const existingDailyGoal = await getData(dailyGoalKey);
-        // console.log('existingDailyGoal', existingDailyGoal);
         if (existingDailyGoal) {
             // If a dailyGoal already exists for today, do nothing
             return;
@@ -102,7 +102,7 @@ export const DailyGoalService = {
             streakCount: 0,
         }
 
-        await storeData(dailyGoalKey, newDailyGoal);
+        return await storeData(dailyGoalKey, newDailyGoal);
     },
     createPreviousDailyGoals: async () => {
         const today = new Date();
@@ -122,26 +122,32 @@ export const DailyGoalService = {
           return;
         }
         
-        const latestDailyGoalKey = sortedKeys[0];
+        console.log('sortedKeys = ', sortedKeys);
+        const latestDailyGoalKey = sortedKeys[1];
         const latestDailyGoal = await getData(latestDailyGoalKey);
 
         let streakCnt = 0;
-        if (latestDailyGoal.status === 'FAILED') {
+        if (latestDailyGoal.status === DailyGoalStatus.FAILED) {
             streakCnt = latestDailyGoal.streakCount;
         }
     
-
-        const latestDailyGoalDate = new Date(latestDailyGoalKey.split('-')[1]);
+        const dateParts = latestDailyGoalKey.split('-').slice(1); // [yyyy, MM, dd]
+        const year = parseInt(dateParts[0], 10);
+        const month = parseInt(dateParts[1], 10) - 1; // JavaScript months are 0-based
+        const day = parseInt(dateParts[2], 10);
+        const latestDailyGoalDate = new Date(year, month, day + 1);
         latestDailyGoalDate.setDate(latestDailyGoalDate.getDate() + 1);
-    
+        console.log('latestDaily', latestDailyGoalDate);
+        
         while (latestDailyGoalDate < today) {
           const dateString = latestDailyGoalDate.toISOString().split('T')[0]; // Get YYYY-MM-DD string
           const dailyGoalKey = `dailyGoal-${dateString}`;
+          console.log('new DailyGoalKey = ', dailyGoalKey);
     
           const newDailyGoal: DailyGoal = {
             goalList: copiedGoals,
             dailyGoalDate: new Date(latestDailyGoalDate),  // set the date of the newDailyGoal to latestDailyGoalDate
-            dailyGoalStatus: 'FAILED',  // mark the missed dailyGoals as FAILED
+            dailyGoalStatus: DailyGoalStatus.FAILED,  // mark the missed dailyGoals as FAILED
             streakCount: streakCnt++,
           }
     
@@ -152,4 +158,10 @@ export const DailyGoalService = {
           latestDailyGoalDate.setDate(latestDailyGoalDate.getDate() + 1);
         }
       },
+      deleteAllDailyGoals: async () => {
+        const keys = await AsyncStorage.getAllKeys();
+        const dailyGoalKeys = keys.filter(key => key.startsWith('dailyGoal-'));
+        
+        await Promise.all(dailyGoalKeys.map(key => AsyncStorage.removeItem(key)));
+    },
 }
