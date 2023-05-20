@@ -52,6 +52,7 @@ const MainContents = () => {
 
   useEffect(() => {
     DailyGoalService.createTodayDailyGoal(DailyGoalStatus.IN_PROGRESS).then(todayDailyGoalRes => {
+      console.log('todayailyGoal = ', todayDailyGoalRes);
       DailyGoalService.createPreviousDailyGoals().then(prevDailyGoalRes => {
         console.log('prev = ', prevDailyGoalRes);
         DailyGoalService.getDailyGoals(1).then(dailyGoalResult => {

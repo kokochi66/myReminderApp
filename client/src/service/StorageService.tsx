@@ -116,12 +116,12 @@ export const DailyGoalService = {
         const keys = await AsyncStorage.getAllKeys();
         const dailyGoalKeys = keys.filter(key => key.startsWith('dailyGoal-'));
         const sortedKeys = dailyGoalKeys.sort((a, b) => b.localeCompare(a)); // Sort the keys in descending order (latest first)
+
         
-        if (!sortedKeys.length) {
-          // If there are no previous DailyGoals, just return
-          return;
+        if (sortedKeys.length < 2) {
+            return;
         }
-        
+        console.log(sortedKeys.length);
         console.log('sortedKeys = ', sortedKeys);
         const latestDailyGoalKey = sortedKeys[1];
         const latestDailyGoal = await getData(latestDailyGoalKey);
@@ -131,6 +131,7 @@ export const DailyGoalService = {
             streakCnt = latestDailyGoal.streakCount;
         }
     
+        console.log('latestDailyGoalKey = ', latestDailyGoalKey);
         const dateParts = latestDailyGoalKey.split('-').slice(1); // [yyyy, MM, dd]
         const year = parseInt(dateParts[0], 10);
         const month = parseInt(dateParts[1], 10) - 1; // JavaScript months are 0-based

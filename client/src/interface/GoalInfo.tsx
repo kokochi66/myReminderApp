@@ -1,5 +1,5 @@
 export interface Goal {
-  goalType: 'SLEEP' | 'EXCERCISE' | "STUDY";
+  goalType: string;
   startDate: Date;
   endDate: Date;
   criteria: string;

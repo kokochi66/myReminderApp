@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import JWDatePicker from '../util/JWDatePicker';
 import { GoalService } from '../../service/StorageService';
+import { Goal } from '../../interface/GoalInfo';
 
 const AddGoal = () => {
   const [goalType, setGoalType] = useState<string>('study');

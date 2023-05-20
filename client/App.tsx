@@ -11,6 +11,7 @@ import AddGoal from './src/components/main/AddGoal';
 import EditProfile from './src/components/main/EditProfile';
 import { NativeBaseProvider } from 'native-base';
 import { NavigationContainer } from '@react-navigation/native';
+import TestPage from './src/components/main/TestPage';
 
 const App = () => {
   const [selectedTab, setSelectedTab] = useState<string>('MainContents');
@@ -24,6 +25,8 @@ const App = () => {
         return <AddGoal />;
       case 'EditProfile':
         return <EditProfile />;
+      case 'TestPage':
+        return <TestPage />;
       default:
         return <MainContents />;
     }
