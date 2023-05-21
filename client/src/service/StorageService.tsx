@@ -81,9 +81,8 @@ export const DailyGoalService = {
         const dailyGoals = await Promise.all(paginatedKeys.map(key => getData(key))); // fetch all the dailyGoals for the page
         return dailyGoals;
     },
-    createTodayDailyGoal: async (status: DailyGoalStatus): Promise<any> => {
-        const today = new Date();
-        const dateString = today.toISOString().split('T')[0]; // Get YYYY-MM-DD string
+    createTodayDailyGoal: async (status: DailyGoalStatus, date: Date): Promise<any> => {
+        const dateString = date.toISOString().split('T')[0]; // Get YYYY-MM-DD string
         const dailyGoalKey = `dailyGoal-${dateString}`;
 
         const existingDailyGoal = await getData(dailyGoalKey);
@@ -97,7 +96,7 @@ export const DailyGoalService = {
 
         const newDailyGoal: DailyGoal = {
             goalList: copiedGoals,
-            dailyGoalDate: today,
+            dailyGoalDate: date,
             dailyGoalStatus: status,
             streakCount: 0,
         }

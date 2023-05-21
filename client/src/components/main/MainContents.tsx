@@ -51,7 +51,8 @@ const MainContents = () => {
   const [dailyGoals, setDailyGoals] = useState<DailyGoal[]>([]);
 
   useEffect(() => {
-    DailyGoalService.createTodayDailyGoal(DailyGoalStatus.IN_PROGRESS).then(todayDailyGoalRes => {
+    const today = new Date();
+    DailyGoalService.createTodayDailyGoal(DailyGoalStatus.IN_PROGRESS, today).then(todayDailyGoalRes => {
       console.log('todayailyGoal = ', todayDailyGoalRes);
       DailyGoalService.createPreviousDailyGoals().then(prevDailyGoalRes => {
         console.log('prev = ', prevDailyGoalRes);
@@ -69,11 +70,14 @@ const MainContents = () => {
 
   }, []);
 
-  const formatDate = (date: Date): string => {
-    console.log(date);
+  const formatDate = (date?: Date): string => {
+    if (!date) {
+      return "";
+    }
     const dateString = date.toISOString().split('T')[0];
     return `dailyGoal-${dateString}`;
   }
+  
 
 
 
@@ -100,7 +104,7 @@ const MainContents = () => {
           <Text fontSize="xs" _dark={{
             color: "warmGray.50"
           }} color="coolGray.800" alignSelf="flex-start">
-            {String(item.dailyGoalDate)}
+            {formatDate(item.dailyGoalDate)}
           </Text>
         </HStack>
       </Button>
