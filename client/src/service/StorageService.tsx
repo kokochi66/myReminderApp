@@ -81,7 +81,7 @@ export const DailyGoalService = {
         const dailyGoals = await Promise.all(paginatedKeys.map(key => getData(key))); // fetch all the dailyGoals for the page
         return dailyGoals;
     },
-    createTodayDailyGoal: async (status: DailyGoalStatus, date: Date): Promise<any> => {
+    createDailyGoal: async (status: DailyGoalStatus, date: Date): Promise<any> => {
         const dateString = date.toISOString().split('T')[0]; // Get YYYY-MM-DD string
         const dailyGoalKey = `dailyGoal-${dateString}`;
 
@@ -98,7 +98,7 @@ export const DailyGoalService = {
             goalList: copiedGoals,
             dailyGoalDate: date,
             dailyGoalStatus: status,
-            streakCount: 0,
+            streakCount: status === DailyGoalStatus.IN_PROGRESS ? 0 : 1,
         }
 
         return await storeData(dailyGoalKey, newDailyGoal);
@@ -125,7 +125,7 @@ export const DailyGoalService = {
         const latestDailyGoalKey = sortedKeys[1];
         const latestDailyGoal = await getData(latestDailyGoalKey);
 
-        let streakCnt = 0;
+        let streakCnt = 1;
         if (latestDailyGoal.status === DailyGoalStatus.FAILED) {
             streakCnt = latestDailyGoal.streakCount;
         }
@@ -136,10 +136,10 @@ export const DailyGoalService = {
         const month = parseInt(dateParts[1], 10) - 1; // JavaScript months are 0-based
         const day = parseInt(dateParts[2], 10);
         const latestDailyGoalDate = new Date(year, month, day + 1);
-        latestDailyGoalDate.setDate(latestDailyGoalDate.getDate() + 1);
+        latestDailyGoalDate.setDate(latestDailyGoalDate.getDate());
         console.log('latestDaily', latestDailyGoalDate);
         
-        while (latestDailyGoalDate < today) {
+        while (latestDailyGoalDate.toISOString().split('T')[0] < today.toISOString().split('T')[0]) {
           const dateString = latestDailyGoalDate.toISOString().split('T')[0]; // Get YYYY-MM-DD string
           const dailyGoalKey = `dailyGoal-${dateString}`;
           console.log('new DailyGoalKey = ', dailyGoalKey);
