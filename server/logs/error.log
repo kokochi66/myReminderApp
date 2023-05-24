@@ -1,0 +1,2116 @@
+2023/03/21 19:19:02 [error] 4196#2604: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/03/21 19:19:36 [error] 4196#2604: *4 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/03/21 19:25:12 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:12 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:19 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:19 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:33 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:33 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:33 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:33 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:33 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:33 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:34 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:34 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:38 [error] 4196#2604: *6 "./html/hello/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hello/ HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:38 [error] 4196#2604: *6 "./html/hello/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hello/ HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:40 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:25:40 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:26:19 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:26:20 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:26:20 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:26:20 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:26:20 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:26:20 [error] 4196#2604: *6 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:28:22 [error] 4196#2604: *9 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:28:22 [error] 4196#2604: *9 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:28:27 [error] 4196#2604: *9 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:28:27 [error] 4196#2604: *9 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:37 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:37 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:38 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:39 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:39 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:41 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:41 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:41 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:41 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:41 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:41 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:44 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:29:44 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:30:01 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:30:01 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:30:03 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:30:03 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:30:52 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:30:52 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:31:05 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:31:05 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:31:25 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:31:25 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:31:43 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:31:43 [error] 4196#2604: *11 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:27 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:27 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:27 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:27 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:30 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:31 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:31 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:31 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:32 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:32 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:33 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:34:33 [error] 4196#2604: *14 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:35:38 [error] 4196#2604: *16 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:35:38 [error] 4196#2604: *16 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:43:33 [error] 4196#2604: *18 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:43:34 [error] 4196#2604: *18 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:43:36 [error] 4196#2604: *18 "./html/hello/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hello/ HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:43:36 [error] 4196#2604: *18 "./html/hello/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /hello/ HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:43:39 [error] 4196#2604: *18 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:43:39 [error] 4196#2604: *18 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:54:03 [error] 4196#2604: *20 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:54:04 [error] 4196#2604: *20 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:54:07 [error] 4196#2604: *20 CreateFile() "./html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:54:07 [error] 4196#2604: *20 CreateFile() "./html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/03/21 19:59:53 [emerg] 9420#17500: unknown log format "main" in ./conf/nginx.conf:41
+2023/03/21 19:59:55 [emerg] 11408#3532: unknown log format "main" in ./conf/nginx.conf:41
+2023/03/21 20:00:03 [error] 4196#2604: *24 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 20:00:03 [error] 4196#2604: *24 CreateFile() "./html/hello" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hello HTTP/1.1", host: "127.0.0.1"
+2023/03/21 20:00:06 [error] 4196#2604: *24 CreateFile() "./html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/03/21 20:00:06 [error] 4196#2604: *24 CreateFile() "./html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/03/21 20:08:33 [error] 4196#2604: *28 CreateFile() "./html/html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /html HTTP/1.1", host: "127.0.0.1"
+2023/03/21 20:08:33 [error] 4196#2604: *28 CreateFile() "./html/html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /html HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:25:16 [emerg] 20092#3944: unknown log format "main" in ./conf/nginx.conf:29
+2023/04/24 01:28:16 [emerg] 17488#4752: unknown log format "main" in ./conf/nginx.conf:29
+2023/04/24 01:28:33 [emerg] 9196#15644: unknown log format "main" in ./conf/nginx.conf:29
+2023/04/24 01:31:35 [emerg] 21284#21308: unknown log format "main" in ./conf/nginx.conf:29
+2023/04/24 01:37:50 [emerg] 3412#2116: unknown log format "main" in C:\openresty-1.21.4.1-win64/conf\nginx.conf:29
+2023/04/24 01:37:56 [emerg] 13564#8508: unknown log format "main" in C:\openresty-1.21.4.1-win64/conf\nginx.conf:29
+2023/04/24 01:39:11 [error] 7840#14152: *1 CreateFile() "C:\openresty-1.21.4.1-win64/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/04/24 01:40:12 [error] 7840#14152: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:40:12 [error] 7840#14152: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:40:28 [error] 7840#14152: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:40:28 [error] 7840#14152: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:30 [error] 7840#14152: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:30 [error] 7840#14152: *9 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:32 [error] 7840#14152: *8 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:32 [error] 7840#14152: *11 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:40 [error] 7840#14152: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:40 [error] 7840#14152: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:40 [error] 7840#14152: *12 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:40 [error] 7840#14152: *15 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:40 [error] 7840#14152: *14 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:40 [error] 7840#14152: *17 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:46 [error] 7840#14152: *16 CreateFile() "C:\openresty-1.21.4.1-win64/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:41:46 [error] 7840#14152: *19 CreateFile() "C:\openresty-1.21.4.1-win64/html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:43:46 [notice] 7260#10636: signal process started
+2023/04/24 01:44:31 [error] 20912#14868: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:44:31 [error] 20912#14868: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:44:46 [error] 20912#14868: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:17 [error] 20912#14868: *4 CreateFile() "./html/aaa" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /aaa HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:17 [error] 20912#14868: *7 CreateFile() "./html/aaa" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /aaa HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:20 [error] 20912#14868: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:20 [error] 20912#14868: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:21 [error] 20912#14868: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:49 [error] 20912#14868: *8 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:45:49 [error] 20912#14868: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):4: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/04/24 01:49:00 [notice] 1868#8360: signal process started
+2023/04/24 01:49:56 [emerg] 11536#21308: unexpected "}" in ./conf/nginx.conf:39
+2023/04/24 01:50:07 [emerg] 12624#15448: unexpected "}" in ./conf/nginx.conf:39
+2023/04/24 01:50:33 [notice] 17700#21324: signal process started
+2023/05/14 21:31:09 [error] 9208#5596: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2023/05/14 22:06:42 [emerg] 2112#17304: directive "default_type" is not terminated by ";" in ./conf/nginx.conf:52
+2023/05/14 22:06:48 [emerg] 8412#13276: directive "default_type" is not terminated by ";" in ./conf/nginx.conf:52
+2023/05/14 22:07:21 [emerg] 13140#11360: invalid number of arguments in "default_type" directive in ./conf/nginx.conf:51
+2023/05/14 22:08:20 [error] 9208#5596: *4 CreateFile() "./html/add/a=1&b=3" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /add/a=1&b=3 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:08:20 [error] 9208#5596: *6 CreateFile() "./html/add/a=1&b=3" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /add/a=1&b=3 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:08:33 [error] 9208#5596: *4 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=3 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:08:33 [error] 9208#5596: *6 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=3 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:08:37 [error] 9208#5596: *4 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=3 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:08:37 [error] 9208#5596: *6 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=3 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:09:26 [error] 9208#5596: *4 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:09:26 [error] 9208#5596: *6 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:09:31 [error] 9208#5596: *4 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:09:31 [error] 9208#5596: *6 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:09:57 [error] 9208#5596: *4 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:09:57 [error] 9208#5596: *6 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:10:07 [error] 9208#5596: *4 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:10:07 [error] 9208#5596: *6 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:12:55 [error] 9208#5596: *8 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:12:56 [error] 9208#5596: *10 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:13:25 [error] 9208#5596: *8 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:13:25 [error] 9208#5596: *10 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:15:38 [error] 9208#5596: *11 CreateFile() "./html/메ㅑ" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /%EB%A9%94%E3%85%91 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:15:38 [error] 9208#5596: *13 CreateFile() "./html/메ㅑ" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /%EB%A9%94%E3%85%91 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:19:39 [error] 9208#5596: *17 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:19:39 [error] 9208#5596: *19 CreateFile() "./html/add" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:20:56 [error] 9208#5596: *17 CreateFile() "./html/add1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add1 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:20:56 [error] 9208#5596: *19 CreateFile() "./html/add1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add1 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:21:04 [emerg] 4124#11620: unexpected "}" in ./conf/nginx.conf:65
+2023/05/14 22:21:06 [error] 9208#5596: *17 CreateFile() "./html/add1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add1 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:21:06 [error] 9208#5596: *19 CreateFile() "./html/add1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /add1 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:25:25 [emerg] 10120#2608: unexpected "}" in ./conf/nginx.conf:65
+2023/05/14 22:25:48 [notice] 3824#20372: signal process started
+2023/05/14 22:26:58 [notice] 11476#4560: signal process started
+2023/05/14 22:26:58 [error] 11476#4560: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:27:42 [notice] 5104#19000: signal process started
+2023/05/14 22:27:42 [error] 5104#19000: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:28:02 [notice] 12896#8132: signal process started
+2023/05/14 22:28:02 [error] 12896#8132: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:30:02 [error] 10008#17244: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add1 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:30:02 [error] 10008#17244: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add1 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:30:05 [error] 10008#17244: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:30:05 [error] 10008#17244: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:30:28 [error] 10008#17244: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:30:28 [error] 10008#17244: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:30:35 [error] 10008#17244: *9 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:31:38 [error] 10008#17244: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:31:38 [error] 10008#17244: *12 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:60):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:60): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:33:44 [notice] 4476#19440: signal process started
+2023/05/14 22:34:03 [error] 15076#15268: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:60):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:34:03 [error] 15076#15268: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:60):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:34:06 [error] 15076#15268: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:60):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:34:06 [error] 15076#15268: *5 failed to load inlined Lua code: content_by_lua(nginx.conf:60):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:36:51 [notice] 4320#1656: signal process started
+2023/05/14 22:37:01 [error] 1436#1384: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:60):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:37:01 [error] 1436#1384: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:60):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:38:55 [notice] 7816#18760: signal process started
+2023/05/14 22:39:03 [error] 17640#19040: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:62):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:39:04 [error] 17640#19040: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:62):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:40:43 [notice] 14824#6352: signal process started
+2023/05/14 22:40:54 [error] 11128#8796: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:62):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:40:54 [error] 11128#8796: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:62):3: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:41:50 [notice] 13072#18228: signal process started
+2023/05/14 22:42:54 [notice] 12892#11620: signal process started
+2023/05/14 22:42:54 [error] 12892#11620: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:43:29 [notice] 7456#8132: signal process started
+2023/05/14 22:43:31 [notice] 13604#8328: signal process started
+2023/05/14 22:43:31 [error] 13604#8328: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:45:03 [notice] 11324#8148: signal process started
+2023/05/14 22:45:03 [error] 11324#8148: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:46:18 [notice] 18816#20268: signal process started
+2023/05/14 22:46:18 [error] 18816#20268: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:46:19 [notice] 11496#8328: signal process started
+2023/05/14 22:46:19 [error] 11496#8328: CreateFile() "./logs/nginx.pid" failed (2: The system cannot find the file specified)
+2023/05/14 22:46:50 [error] 1804#4820: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1,b=5 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:46:50 [error] 1804#4820: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1,b=5 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:52:29 [notice] 14488#9320: signal process started
+2023/05/14 22:52:50 [error] 17704#14036: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:71):6: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:71): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /user?name=John&age=30 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:52:51 [error] 17704#14036: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:71):6: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:71): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /user?name=John&age=30 HTTP/1.1", host: "127.0.0.1"
+2023/05/14 22:53:41 [notice] 8484#18020: signal process started
+2023/05/14 22:53:45 [notice] 18664#17616: signal process started
+2023/05/22 09:43:52 [error] 6980#3116: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/api"
+2023/05/22 09:43:56 [error] 6980#3116: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/22 09:43:56 [error] 6980#3116: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add HTTP/1.1", host: "127.0.0.1"
+2023/05/22 09:44:18 [error] 6980#3116: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/22 09:44:18 [error] 6980#3116: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/22 09:44:20 [error] 6980#3116: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/22 09:44:20 [error] 6980#3116: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:61):5: attempt to perform arithmetic on local 'a' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:61): in main chunk, client: 127.0.0.1, server: localhost, request: "GET /add?a=1&b=2 HTTP/1.1", host: "127.0.0.1"
+2023/05/22 09:46:47 [emerg] 16936#15756: unknown directive "local" in ./conf/nginx.conf:56
+2023/05/22 09:47:14 [notice] 18572#8056: signal process started
+2023/05/22 09:58:07 [notice] 22264#22268: signal process started
+2023/05/22 11:08:07 [emerg] 12784#848: unexpected ":" in ./conf/nginx.conf:110
+2023/05/22 11:18:02 [notice] 17912#2936: signal process started
+2023/05/22 11:46:04 [notice] 4972#16848: signal process started
+2023/05/22 11:47:27 [notice] 21152#1056: signal process started
+2023/05/22 11:48:42 [notice] 14308#1744: signal process started
+2023/05/22 11:48:47 [error] 14656#20420: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:114):8: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:114):8: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:48:47 [error] 14656#20420: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:114):8: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:114):8: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:48:49 [error] 14656#20420: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:114):8: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:114):8: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:48:49 [error] 14656#20420: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:114):8: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:114):8: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:52:31 [notice] 1004#11092: signal process started
+2023/05/22 11:52:35 [error] 18544#916: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:115):9: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:115):9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:52:36 [error] 18544#916: *8 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:115):9: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:115):9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:10 [error] 18544#916: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:115):9: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:115):9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:10 [error] 18544#916: *9 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:115):9: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:115):9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:10 [error] 18544#916: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:115):9: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:115):9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:23 [notice] 4768#5904: signal process started
+2023/05/22 11:53:27 [error] 18544#916: *11 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:115):9: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	content_by_lua(nginx.conf:115):9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:27 [error] 5084#3696: *13 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:41 [notice] 1744#14308: signal process started
+2023/05/22 11:53:48 [error] 21296#21820: *14 CreateFile() "./html/hoem" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hoem HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:53:48 [error] 21296#21820: *15 CreateFile() "./html/hoem" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /hoem HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:54:46 [error] 21296#21820: *14 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:54:46 [error] 21296#21820: *16 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:54:46 [error] 21296#21820: *15 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:56:33 [error] 21296#21820: *18 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:56:33 [error] 21296#21820: *20 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:56:37 [notice] 7544#11792: signal process started
+2023/05/22 11:56:38 [error] 21296#21820: *19 failed to load inlined Lua code: content_by_lua(nginx.conf:115):9: unexpected symbol near '#', client: 127.0.0.1, server: localhost, request: "GET /test HTTP/1.1", host: "127.0.0.1"
+2023/05/22 11:57:12 [notice] 20648#5532: signal process started
+2023/05/22 12:04:56 [notice] 17964#10968: signal process started
+2023/05/22 12:08:07 [notice] 18692#3876: signal process started
+2023/05/22 12:10:04 [notice] 6624#1464: signal process started
+2023/05/22 13:08:06 [notice] 14848#5428: signal process started
+2023/05/22 13:41:54 [emerg] 19864#15112: invalid number of arguments in "default_type" directive in ./conf/nginx.conf:71
+2023/05/22 13:42:06 [emerg] 4640#18504: invalid number of arguments in "default_type" directive in ./conf/nginx.conf:71
+2023/05/22 13:44:50 [notice] 3352#14784: signal process started
+2023/05/22 13:54:49 [emerg] 14712#18604: invalid number of arguments in "default_type" directive in ./conf/nginx.conf:89
+2023/05/22 13:54:57 [notice] 16720#11208: signal process started
+2023/05/22 13:55:09 [error] 2704#16284: *6 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.connection' not found:
+	no field package.preload['api.connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.lua'
+	no file './site/lualib/api\connection.ljbc'
+	no file './site/lualib/api\connection/init.ljbc'
+	no file './lualib/api\connection.ljbc'
+	no file './lualib/api\connection/init.ljbc'
+	no file './site/lualib/api\connection.lua'
+	no file './site/lualib/api\connection/init.lua'
+	no file './lualib/api\connection.lua'
+	no file './lualib/api\connection/init.lua'
+	no file '.\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.dll'
+	no file './site/lualib/api\connection.so'
+	no file './lualib/api\connection.so'
+	no file '.\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 13:55:09 [error] 2704#16284: *8 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.connection' not found:
+	no field package.preload['api.connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.lua'
+	no file './site/lualib/api\connection.ljbc'
+	no file './site/lualib/api\connection/init.ljbc'
+	no file './lualib/api\connection.ljbc'
+	no file './lualib/api\connection/init.ljbc'
+	no file './site/lualib/api\connection.lua'
+	no file './site/lualib/api\connection/init.lua'
+	no file './lualib/api\connection.lua'
+	no file './lualib/api\connection/init.lua'
+	no file '.\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.dll'
+	no file './site/lualib/api\connection.so'
+	no file './lualib/api\connection.so'
+	no file '.\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 13:56:08 [notice] 13136#8372: signal process started
+2023/05/22 13:56:12 [error] 21632#21880: *9 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'connection' not found:
+	no field package.preload['connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection.lua'
+	no file './site/lualib/connection.ljbc'
+	no file './site/lualib/connection/init.ljbc'
+	no file './lualib/connection.ljbc'
+	no file './lualib/connection/init.ljbc'
+	no file './site/lualib/connection.lua'
+	no file './site/lualib/connection/init.lua'
+	no file './lualib/connection.lua'
+	no file './lualib/connection/init.lua'
+	no file '.\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection.dll'
+	no file './site/lualib/connection.so'
+	no file './lualib/connection.so'
+	no file '.\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 13:56:12 [error] 21632#21880: *11 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'connection' not found:
+	no field package.preload['connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection.lua'
+	no file './site/lualib/connection.ljbc'
+	no file './site/lualib/connection/init.ljbc'
+	no file './lualib/connection.ljbc'
+	no file './lualib/connection/init.ljbc'
+	no file './site/lualib/connection.lua'
+	no file './site/lualib/connection/init.lua'
+	no file './lualib/connection.lua'
+	no file './lualib/connection/init.lua'
+	no file '.\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection.dll'
+	no file './site/lualib/connection.so'
+	no file './lualib/connection.so'
+	no file '.\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 13:57:54 [notice] 17056#8500: signal process started
+2023/05/22 13:57:58 [error] 11584#21596: *12 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'connection.lua' not found:
+	no field package.preload['connection.lua']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection\lua.lua'
+	no file './site/lualib/connection\lua.ljbc'
+	no file './site/lualib/connection\lua/init.ljbc'
+	no file './lualib/connection\lua.ljbc'
+	no file './lualib/connection\lua/init.ljbc'
+	no file './site/lualib/connection\lua.lua'
+	no file './site/lualib/connection\lua/init.lua'
+	no file './lualib/connection\lua.lua'
+	no file './lualib/connection\lua/init.lua'
+	no file '.\connection\lua.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection\lua.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection\lua.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection\lua\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\connection\lua.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection\lua.dll'
+	no file './site/lualib/connection\lua.so'
+	no file './lualib/connection\lua.so'
+	no file '.\connection\lua.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection\lua.so'
+	no file 'C:\openresty-1.21.4.1-win64\connection\lua.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection.dll'
+	no file './site/lualib/connection.so'
+	no file './lualib/connection.so'
+	no file '.\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 13:57:58 [error] 11584#21596: *14 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'connection.lua' not found:
+	no field package.preload['connection.lua']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection\lua.lua'
+	no file './site/lualib/connection\lua.ljbc'
+	no file './site/lualib/connection\lua/init.ljbc'
+	no file './lualib/connection\lua.ljbc'
+	no file './lualib/connection\lua/init.ljbc'
+	no file './site/lualib/connection\lua.lua'
+	no file './site/lualib/connection\lua/init.lua'
+	no file './lualib/connection\lua.lua'
+	no file './lualib/connection\lua/init.lua'
+	no file '.\connection\lua.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection\lua.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection\lua.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\connection\lua\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\connection\lua.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection\lua.dll'
+	no file './site/lualib/connection\lua.so'
+	no file './lualib/connection\lua.so'
+	no file '.\connection\lua.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection\lua.so'
+	no file 'C:\openresty-1.21.4.1-win64\connection\lua.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/connection.dll'
+	no file './site/lualib/connection.so'
+	no file './lualib/connection.so'
+	no file '.\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:03:14 [notice] 19580#14968: signal process started
+2023/05/22 14:03:18 [error] 12496#11804: *15 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.connection' not found:
+	no field package.preload['api.connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.lua'
+	no file './site/lualib/api\connection.ljbc'
+	no file './site/lualib/api\connection/init.ljbc'
+	no file './lualib/api\connection.ljbc'
+	no file './lualib/api\connection/init.ljbc'
+	no file './site/lualib/api\connection.lua'
+	no file './site/lualib/api\connection/init.lua'
+	no file './lualib/api\connection.lua'
+	no file './lualib/api\connection/init.lua'
+	no file '.\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.dll'
+	no file './site/lualib/api\connection.so'
+	no file './lualib/api\connection.so'
+	no file '.\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:03:18 [error] 12496#11804: *17 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.connection' not found:
+	no field package.preload['api.connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.lua'
+	no file './site/lualib/api\connection.ljbc'
+	no file './site/lualib/api\connection/init.ljbc'
+	no file './lualib/api\connection.ljbc'
+	no file './lualib/api\connection/init.ljbc'
+	no file './site/lualib/api\connection.lua'
+	no file './site/lualib/api\connection/init.lua'
+	no file './lualib/api\connection.lua'
+	no file './lualib/api\connection/init.lua'
+	no file '.\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.dll'
+	no file './site/lualib/api\connection.so'
+	no file './lualib/api\connection.so'
+	no file '.\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:03:28 [notice] 18940#16588: signal process started
+2023/05/22 14:03:31 [error] 12496#11804: *16 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.connection' not found:
+	no field package.preload['api.connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.lua'
+	no file './site/lualib/api\connection.ljbc'
+	no file './site/lualib/api\connection/init.ljbc'
+	no file './lualib/api\connection.ljbc'
+	no file './lualib/api\connection/init.ljbc'
+	no file './site/lualib/api\connection.lua'
+	no file './site/lualib/api\connection/init.lua'
+	no file './lualib/api\connection.lua'
+	no file './lualib/api\connection/init.lua'
+	no file '.\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\connection.dll'
+	no file './site/lualib/api\connection.so'
+	no file './lualib/api\connection.so'
+	no file '.\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:03:31 [error] 1676#7920: *19 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:11:52 [notice] 17232#8008: signal process started
+2023/05/22 14:11:54 [error] 6412#11368: *20 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:11:54 [error] 6412#11368: *22 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:18:19 [notice] 11208#9220: signal process started
+2023/05/22 14:18:25 [error] 9000#21516: *23 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:18:25 [error] 9000#21516: *25 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:19:44 [notice] 5652#19528: signal process started
+2023/05/22 14:19:48 [error] 3204#18484: *26 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:19:48 [error] 3204#18484: *28 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:20:50 [notice] 644#1824: signal process started
+2023/05/22 14:20:52 [error] 20968#6960: *29 failed to load external Lua file "./conf/api/api.lua": ./conf/api/api.lua:5: function arguments expected near 'ngx', client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:20:52 [error] 20968#6960: *31 failed to load external Lua file "./conf/api/api.lua": ./conf/api/api.lua:5: function arguments expected near 'ngx', client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:21:52 [notice] 12620#12464: signal process started
+2023/05/22 14:21:56 [error] 13032#19956: *32 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:21:56 [error] 13032#19956: *34 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:23:03 [notice] 11404#3660: signal process started
+2023/05/22 14:24:03 [notice] 18932#13696: signal process started
+2023/05/22 14:24:06 [error] 22132#2644: *38 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:24:06 [error] 22132#2644: *40 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:25:28 [notice] 18180#13116: signal process started
+2023/05/22 14:26:00 [notice] 15112#880: signal process started
+2023/05/22 14:26:05 [error] 2604#2976: *45 failed to load external Lua file "./conf/api/db_connection.lua:get_db": cannot open ./conf/api/db_connection.lua:get_db: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:26:51 [notice] 11460#21340: signal process started
+2023/05/22 14:26:54 [error] 2604#2976: *44 failed to load external Lua file "./conf/api/db_connection.lua:get_db": cannot open ./conf/api/db_connection.lua:get_db: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:26:54 [error] 16824#14864: *47 failed to load external Lua file "./conf/api/db_connection.lua:get_db": cannot open ./conf/api/db_connection.lua:get_db: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:27:05 [error] 16824#14864: *46 failed to load external Lua file "./conf/api/db_connection.lua:get_db": cannot open ./conf/api/db_connection.lua:get_db: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:27:05 [error] 16824#14864: *47 failed to load external Lua file "./conf/api/db_connection.lua:get_db": cannot open ./conf/api/db_connection.lua:get_db: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:27:07 [notice] 17808#9032: signal process started
+2023/05/22 14:27:09 [error] 16824#14864: *48 failed to load external Lua file "./conf/api/db_connection.lua:get_db": cannot open ./conf/api/db_connection.lua:get_db: No such file or directory, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 14:27:30 [notice] 16072#14504: signal process started
+2023/05/22 15:26:18 [notice] 16392#21068: signal process started
+2023/05/22 15:26:22 [error] 10852#4312: *56 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:23 [error] 10852#4312: *57 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:23 [error] 10852#4312: *60 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:24 [error] 10852#4312: *62 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:24 [error] 10852#4312: *63 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:24 [error] 10852#4312: *66 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:24 [error] 10852#4312: *68 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:24 [error] 10852#4312: *69 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:24 [error] 10852#4312: *72 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:25 [error] 10852#4312: *74 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:25 [error] 10852#4312: *75 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:25 [error] 10852#4312: *78 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:25 [error] 10852#4312: *80 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:25 [error] 10852#4312: *81 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:25 [error] 10852#4312: *84 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:28 [error] 10852#4312: *86 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:28 [error] 10852#4312: *87 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:28 [error] 10852#4312: *90 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:33 [error] 10852#4312: *92 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:33 [error] 10852#4312: *93 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:33 [error] 10852#4312: *96 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:33 [notice] 6896#15404: signal process started
+2023/05/22 15:26:36 [error] 5432#15840: *98 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:36 [error] 5432#15840: *99 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:36 [error] 5432#15840: *102 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:50 [error] 5432#15840: *104 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:50 [error] 5432#15840: *105 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:50 [error] 5432#15840: *109 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:51 [error] 5432#15840: *111 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:51 [error] 5432#15840: *112 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:51 [error] 5432#15840: *115 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:56 [error] 5432#15840: *117 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:56 [error] 5432#15840: *118 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:26:56 [error] 5432#15840: *121 lua entry thread aborted: runtime error: ./conf/api/db_connection.lua:31: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/db_connection.lua:31: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:27:20 [notice] 8188#14856: signal process started
+2023/05/22 15:29:30 [notice] 4032#8116: signal process started
+2023/05/22 15:33:02 [notice] 11228#1576: signal process started
+2023/05/22 15:33:37 [notice] 13152#4028: signal process started
+2023/05/22 15:33:40 [error] 2900#19608: *135 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:33:43 [error] 2900#19608: *134 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:33:43 [error] 2900#19608: *137 lua entry thread aborted: runtime error: ./conf/api/api.lua:4: attempt to index local 'connection' (a boolean value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:37:32 [notice] 1980#21148: signal process started
+2023/05/22 15:37:35 [error] 900#9004: *138 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:8: attempt to index upvalue 'log' (a function value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'get_db'
+	./conf/api/api.lua:4: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:37:35 [error] 900#9004: *140 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:8: attempt to index upvalue 'log' (a function value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'get_db'
+	./conf/api/api.lua:4: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:41 [notice] 10232#20384: signal process started
+2023/05/22 15:38:44 [error] 3556#16708: *141 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:44 [error] 3556#16708: *142 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:44 [error] 3556#16708: *145 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:45 [error] 3556#16708: *147 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:45 [error] 3556#16708: *148 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:45 [error] 3556#16708: *151 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:46 [error] 3556#16708: *153 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:46 [error] 3556#16708: *154 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:46 [error] 3556#16708: *157 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:47 [error] 3556#16708: *159 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:47 [error] 3556#16708: *160 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:47 [error] 3556#16708: *163 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:52 [error] 3556#16708: *165 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:52 [error] 3556#16708: *166 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:38:52 [error] 3556#16708: *169 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:22 [error] 3556#16708: *171 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:22 [error] 3556#16708: *172 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:22 [error] 3556#16708: *175 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:39 [notice] 18340#3292: signal process started
+2023/05/22 15:39:43 [error] 13372#6008: *177 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:43 [error] 13372#6008: *178 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:43 [error] 13372#6008: *181 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:43 [error] 13372#6008: *183 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:43 [error] 13372#6008: *184 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:43 [error] 13372#6008: *187 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:44 [error] 13372#6008: *189 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:44 [error] 13372#6008: *190 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:39:44 [error] 13372#6008: *193 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:36 [error] 13372#6008: *195 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:36 [error] 13372#6008: *196 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:36 [error] 13372#6008: *199 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:38 [notice] 21744#2496: signal process started
+2023/05/22 15:40:40 [error] 18532#2816: *201 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:40 [error] 18532#2816: *202 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:40 [error] 18532#2816: *205 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:41 [error] 18532#2816: *207 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:41 [error] 18532#2816: *208 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:41 [error] 18532#2816: *211 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:42 [error] 18532#2816: *213 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:42 [error] 18532#2816: *214 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:40:42 [error] 18532#2816: *217 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:41:42 [error] 18532#2816: *219 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:41:42 [error] 18532#2816: *220 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:41:42 [error] 18532#2816: *223 lua entry thread aborted: runtime error: ./conf/api/api.lua:12: attempt to call field 'encode' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:47:13 [notice] 7844#824: signal process started
+2023/05/22 15:47:23 [error] 20288#688: *228 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.db_connection' not found:
+	no field package.preload['api.db_connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_connection.lua'
+	no file './site/lualib/api\db_connection.ljbc'
+	no file './site/lualib/api\db_connection/init.ljbc'
+	no file './lualib/api\db_connection.ljbc'
+	no file './lualib/api\db_connection/init.ljbc'
+	no file './site/lualib/api\db_connection.lua'
+	no file './site/lualib/api\db_connection/init.lua'
+	no file './lualib/api\db_connection.lua'
+	no file './lualib/api\db_connection/init.lua'
+	no file '.\api\db_connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_connection.dll'
+	no file './site/lualib/api\db_connection.so'
+	no file './lualib/api\db_connection.so'
+	no file '.\api\db_connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:47:23 [error] 20288#688: *230 lua entry thread aborted: runtime error: ./conf/api/api.lua:1: module 'api.db_connection' not found:
+	no field package.preload['api.db_connection']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_connection.lua'
+	no file './site/lualib/api\db_connection.ljbc'
+	no file './site/lualib/api\db_connection/init.ljbc'
+	no file './lualib/api\db_connection.ljbc'
+	no file './lualib/api\db_connection/init.ljbc'
+	no file './site/lualib/api\db_connection.lua'
+	no file './site/lualib/api\db_connection/init.lua'
+	no file './lualib/api\db_connection.lua'
+	no file './lualib/api\db_connection/init.lua'
+	no file '.\api\db_connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_connection.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_connection\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_connection.luac'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_connection.dll'
+	no file './site/lualib/api\db_connection.so'
+	no file './lualib/api\db_connection.so'
+	no file '.\api\db_connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_connection.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_connection.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:1: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:36 [notice] 18968#8284: signal process started
+2023/05/22 15:51:40 [error] 21832#9248: *231 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:40 [error] 21832#9248: *232 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:40 [error] 21832#9248: *235 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:41 [error] 21832#9248: *237 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:41 [error] 21832#9248: *238 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:41 [error] 21832#9248: *241 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:42 [error] 21832#9248: *243 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:42 [error] 21832#9248: *244 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:42 [error] 21832#9248: *247 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:47 [error] 21832#9248: *249 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:47 [error] 21832#9248: *250 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:51:47 [error] 21832#9248: *253 lua entry thread aborted: runtime error: ./conf/api/api.lua:14: attempt to call a number value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:52:12 [notice] 20924#1804: signal process started
+2023/05/22 15:53:41 [notice] 12356#21744: signal process started
+2023/05/22 15:53:45 [error] 15812#20952: *259 CreateFile() "./html/apu" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /apu HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:53:45 [error] 15812#20952: *261 CreateFile() "./html/apu" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /apu HTTP/1.1", host: "127.0.0.1"
+2023/05/22 15:54:19 [notice] 21656#21360: signal process started
+2023/05/22 15:54:50 [notice] 5416#7316: signal process started
+2023/05/22 16:13:32 [notice] 21976#21516: signal process started
+2023/05/22 16:15:28 [notice] 20700#14460: signal process started
+2023/05/22 16:17:20 [notice] 1080#5648: signal process started
+2023/05/22 16:17:24 [error] 304#7908: *296 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:24 [error] 304#7908: *297 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:24 [error] 304#7908: *302 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:25 [error] 304#7908: *305 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:25 [error] 304#7908: *306 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:25 [error] 304#7908: *311 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:26 [error] 304#7908: *314 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:26 [error] 304#7908: *315 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:26 [error] 304#7908: *320 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:31 [error] 304#7908: *323 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:31 [error] 304#7908: *324 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:31 [error] 304#7908: *329 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:36 [error] 304#7908: *332 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:36 [error] 304#7908: *333 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:17:36 [error] 304#7908: *338 lua entry thread aborted: runtime error: ./conf/api/api.lua:7: attempt to call field 'get_header' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:18:08 [notice] 15112#4352: signal process started
+2023/05/22 16:18:15 [error] 12984#2596: *341 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:18:15 [error] 12984#2596: *342 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:18:15 [error] 12984#2596: *347 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:18:45 [error] 12984#2596: *350 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:18:45 [error] 12984#2596: *351 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:18:45 [error] 12984#2596: *356 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:19:45 [error] 12984#2596: *359 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:19:45 [error] 12984#2596: *360 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:19:45 [error] 12984#2596: *365 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:19:49 [notice] 20320#188: signal process started
+2023/05/22 16:19:54 [notice] 7548#5916: signal process started
+2023/05/22 16:19:57 [error] 6728#5448: *368 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #1 to 'decode' (string expected, got table)
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:19:57 [error] 6728#5448: *369 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #1 to 'decode' (string expected, got table)
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:19:57 [error] 6728#5448: *374 lua entry thread aborted: runtime error: ./conf/api/api.lua:9: bad argument #1 to 'decode' (string expected, got table)
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/api.lua:9: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:20:58 [notice] 21060#18228: signal process started
+2023/05/22 16:20:59 [error] 17256#9404: *377 lua entry thread aborted: runtime error: ./conf/api/api.lua:10: attempt to call a table value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:20:59 [error] 17256#9404: *378 lua entry thread aborted: runtime error: ./conf/api/api.lua:10: attempt to call a table value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:20:59 [error] 17256#9404: *383 lua entry thread aborted: runtime error: ./conf/api/api.lua:10: attempt to call a table value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:21:00 [error] 17256#9404: *386 lua entry thread aborted: runtime error: ./conf/api/api.lua:10: attempt to call a table value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:21:00 [error] 17256#9404: *387 lua entry thread aborted: runtime error: ./conf/api/api.lua:10: attempt to call a table value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:21:00 [error] 17256#9404: *392 lua entry thread aborted: runtime error: ./conf/api/api.lua:10: attempt to call a table value
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:21:41 [notice] 14988#15748: signal process started
+2023/05/22 16:22:07 [notice] 15156#21612: signal process started
+2023/05/22 16:24:20 [notice] 14984#6168: signal process started
+2023/05/22 16:42:06 [notice] 2144#21068: signal process started
+2023/05/22 16:42:11 [error] 6068#8712: *416 failed to load external Lua file "./conf/api/api.lua": ./conf/api/api.lua:29: '<eof>' expected near 'end', client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:42:11 [error] 6068#8712: *418 failed to load external Lua file "./conf/api/api.lua": ./conf/api/api.lua:29: '<eof>' expected near 'end', client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:43 [notice] 13156#20916: signal process started
+2023/05/22 16:44:45 [error] 21688#21004: *419 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:45 [error] 21688#21004: *420 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:45 [error] 21688#21004: *421 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:46 [error] 21688#21004: *422 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:46 [error] 21688#21004: *423 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:46 [error] 21688#21004: *424 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:47 [error] 21688#21004: *425 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:47 [error] 21688#21004: *426 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:47 [error] 21688#21004: *427 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:52 [error] 21688#21004: *428 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:52 [error] 21688#21004: *429 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:44:52 [error] 21688#21004: *430 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:45:22 [error] 21688#21004: *431 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:45:22 [error] 21688#21004: *432 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:45:22 [error] 21688#21004: *433 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:22 [error] 21688#21004: *434 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:22 [error] 21688#21004: *435 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:22 [error] 21688#21004: *436 lua entry thread aborted: runtime error: ./conf/api/api.lua:20: attempt to index global 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:43 [notice] 18612#7868: signal process started
+2023/05/22 16:46:45 [error] 15636#10768: *437 lua entry thread aborted: runtime error: ./conf/api/api.lua:28: attempt to call field 'return_conn' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:45 [error] 15636#10768: *438 lua entry thread aborted: runtime error: ./conf/api/api.lua:28: attempt to call field 'return_conn' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:45 [error] 15636#10768: *441 lua entry thread aborted: runtime error: ./conf/api/api.lua:28: attempt to call field 'return_conn' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:46 [error] 15636#10768: *443 lua entry thread aborted: runtime error: ./conf/api/api.lua:28: attempt to call field 'return_conn' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:46 [error] 15636#10768: *444 lua entry thread aborted: runtime error: ./conf/api/api.lua:28: attempt to call field 'return_conn' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:46:46 [error] 15636#10768: *447 lua entry thread aborted: runtime error: ./conf/api/api.lua:28: attempt to call field 'return_conn' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/api.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:47:48 [notice] 11028#18504: signal process started
+2023/05/22 16:47:50 [error] 14652#5392: *449 lua entry thread aborted: runtime error: error loading module 'api.db_return' from file './/conf/api\db_return.lua':
+	.//conf/api\db_return.lua:5: '(' expected near '.'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:47:51 [error] 14652#5392: *451 lua entry thread aborted: runtime error: error loading module 'api.db_return' from file './/conf/api\db_return.lua':
+	.//conf/api\db_return.lua:5: '(' expected near '.'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:49:19 [notice] 8320#16824: signal process started
+2023/05/22 16:49:21 [error] 20072#1916: *452 lua entry thread aborted: runtime error: error loading module 'api.db_return' from file './/conf/api\db_return.lua':
+	.//conf/api\db_return.lua:5: '(' expected near '.'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:49:21 [error] 20072#1916: *454 lua entry thread aborted: runtime error: error loading module 'api.db_return' from file './/conf/api\db_return.lua':
+	.//conf/api\db_return.lua:5: '(' expected near '.'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 16:56:22 [notice] 1056#9848: signal process started
+2023/05/22 17:03:15 [notice] 2692#20348: signal process started
+2023/05/22 17:03:18 [error] 10492#1172: *459 lua entry thread aborted: runtime error: ./conf/api/api.lua:2: module 'api.db_return' not found:
+	no field package.preload['api.db_return']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return.ljbc'
+	no file './site/lualib/api\db_return/init.ljbc'
+	no file './lualib/api\db_return.ljbc'
+	no file './lualib/api\db_return/init.ljbc'
+	no file './site/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return/init.lua'
+	no file './lualib/api\db_return.lua'
+	no file './lualib/api\db_return/init.lua'
+	no file '.\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_return.luac'
+	no file './/conf/api\db_return.lua'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.dll'
+	no file './site/lualib/api\db_return.so'
+	no file './lualib/api\db_return.so'
+	no file '.\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:03:18 [error] 10492#1172: *461 lua entry thread aborted: runtime error: ./conf/api/api.lua:2: module 'api.db_return' not found:
+	no field package.preload['api.db_return']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return.ljbc'
+	no file './site/lualib/api\db_return/init.ljbc'
+	no file './lualib/api\db_return.ljbc'
+	no file './lualib/api\db_return/init.ljbc'
+	no file './site/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return/init.lua'
+	no file './lualib/api\db_return.lua'
+	no file './lualib/api\db_return/init.lua'
+	no file '.\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_return.luac'
+	no file './/conf/api\db_return.lua'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.dll'
+	no file './site/lualib/api\db_return.so'
+	no file './lualib/api\db_return.so'
+	no file '.\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:03:28 [error] 10492#1172: *460 lua entry thread aborted: runtime error: ./conf/api/api.lua:2: module 'api.db_return' not found:
+	no field package.preload['api.db_return']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return.ljbc'
+	no file './site/lualib/api\db_return/init.ljbc'
+	no file './lualib/api\db_return.ljbc'
+	no file './lualib/api\db_return/init.ljbc'
+	no file './site/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return/init.lua'
+	no file './lualib/api\db_return.lua'
+	no file './lualib/api\db_return/init.lua'
+	no file '.\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_return.luac'
+	no file './/conf/api\db_return.lua'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.dll'
+	no file './site/lualib/api\db_return.so'
+	no file './lualib/api\db_return.so'
+	no file '.\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:03:28 [error] 10492#1172: *463 lua entry thread aborted: runtime error: ./conf/api/api.lua:2: module 'api.db_return' not found:
+	no field package.preload['api.db_return']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return.ljbc'
+	no file './site/lualib/api\db_return/init.ljbc'
+	no file './lualib/api\db_return.ljbc'
+	no file './lualib/api\db_return/init.ljbc'
+	no file './site/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return/init.lua'
+	no file './lualib/api\db_return.lua'
+	no file './lualib/api\db_return/init.lua'
+	no file '.\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_return.luac'
+	no file './/conf/api\db_return.lua'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.dll'
+	no file './site/lualib/api\db_return.so'
+	no file './lualib/api\db_return.so'
+	no file '.\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:03:31 [notice] 15600#16824: signal process started
+2023/05/22 17:03:32 [error] 10492#1172: *462 lua entry thread aborted: runtime error: ./conf/api/api.lua:2: module 'api.db_return' not found:
+	no field package.preload['api.db_return']
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return.ljbc'
+	no file './site/lualib/api\db_return/init.ljbc'
+	no file './lualib/api\db_return.ljbc'
+	no file './lualib/api\db_return/init.ljbc'
+	no file './site/lualib/api\db_return.lua'
+	no file './site/lualib/api\db_return/init.lua'
+	no file './lualib/api\db_return.lua'
+	no file './lualib/api\db_return/init.lua'
+	no file '.\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return.lua'
+	no file 'C:\openresty-1.21.4.1-win64\lua\api\db_return\init.lua'
+	no file 'C:\Program Files (x86)\Lua\5.1\lua\api\db_return.luac'
+	no file './/conf/api\db_return.lua'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api\db_return.dll'
+	no file './site/lualib/api\db_return.so'
+	no file './lualib/api\db_return.so'
+	no file '.\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api\db_return.so'
+	no file 'C:\openresty-1.21.4.1-win64\api\db_return.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+	no file 'C:/openresty-1.21.4.1-win64/lualib/api.dll'
+	no file './site/lualib/api.so'
+	no file './lualib/api.so'
+	no file '.\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\lualib\api.so'
+	no file 'C:\openresty-1.21.4.1-win64\api.dll'
+	no file 'C:\openresty-1.21.4.1-win64\loadall.dll'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	./conf/api/api.lua:2: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:03:33 [error] 7548#7292: *465 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to index local 'conn' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:32 [notice] 18972#6828: signal process started
+2023/05/22 17:04:35 [error] 10840#4424: *467 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:35 [error] 10840#4424: *468 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:35 [error] 10840#4424: *471 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:37 [error] 10840#4424: *473 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:37 [error] 10840#4424: *474 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:37 [error] 10840#4424: *477 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:37 [error] 10840#4424: *479 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:37 [error] 10840#4424: *480 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:37 [error] 10840#4424: *483 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:39 [error] 10840#4424: *485 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:39 [error] 10840#4424: *486 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:39 [error] 10840#4424: *489 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:44 [error] 10840#4424: *491 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:44 [error] 10840#4424: *492 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:04:44 [error] 10840#4424: *495 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:05:14 [error] 10840#4424: *497 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:05:14 [error] 10840#4424: *498 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:05:14 [error] 10840#4424: *501 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:52: attempt to call method 'set_keepalive' (a nil value)
+stack traceback:
+coroutine 0:
+	.//conf/api\db_connection.lua: in function 'return_db'
+	./conf/api/api.lua:29: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /get_userdata HTTP/1.1", host: "127.0.0.1"
+2023/05/22 17:05:46 [notice] 16928#8368: signal process started
+2023/05/22 18:49:36 [emerg] 13244#18352: unexpected "}" in ./conf/nginx.conf:94
+2023/05/22 18:49:52 [notice] 18696#5916: signal process started
+2023/05/22 18:49:59 [error] 19600#21928: *507 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:50:00 [error] 19600#21928: *509 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:53:11 [notice] 11936#4500: signal process started
+2023/05/22 18:53:14 [error] 22100#21856: *510 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:53:14 [error] 22100#21856: *512 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:55:45 [notice] 9752#5976: signal process started
+2023/05/22 18:55:47 [error] 9224#18532: *513 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:55:47 [error] 9224#18532: *515 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:56:08 [error] 9224#18532: *513 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:56:08 [error] 9224#18532: *515 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 18:59:03 [emerg] 2728#11952: invalid return code "register.html" in ./conf/nginx.conf:93
+2023/05/22 18:59:35 [notice] 22024#10628: signal process started
+2023/05/22 18:59:58 [emerg] 22432#3340: unknown directive "content_type" in ./conf/nginx.conf:92
+2023/05/22 19:01:49 [emerg] 19896#15104: unexpected "}" in ./conf/nginx.conf:93
+2023/05/22 19:01:57 [notice] 18796#17072: signal process started
+2023/05/22 19:02:00 [error] 3056#9552: *519 CreateFile() "./html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:02:00 [error] 3056#9552: *521 CreateFile() "./html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:02:04 [error] 3056#9552: *519 CreateFile() "./html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:02:04 [error] 3056#9552: *521 CreateFile() "./html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:03:12 [notice] 10368#21568: signal process started
+2023/05/22 19:03:15 [error] 924#9408: *524 CreateFile() ".//html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:03:16 [error] 924#9408: *522 CreateFile() ".//html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:03:17 [error] 924#9408: *524 CreateFile() ".//html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:04:20 [notice] 15728#18412: signal process started
+2023/05/22 19:04:24 [error] 12980#1804: *525 CreateFile() "./../html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:04:24 [error] 12980#1804: *527 CreateFile() "./../html/register.html/register" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:05:58 [notice] 13244#2512: signal process started
+2023/05/22 19:06:02 [error] 18372#8608: *528 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:06:02 [error] 18372#8608: *530 CreateFile() "./html/register" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /register HTTP/1.1", host: "127.0.0.1"
+2023/05/22 19:23:07 [notice] 5108#16420: signal process started
+2023/05/22 19:24:19 [notice] 6656#2556: signal process started
+2023/05/22 19:24:29 [notice] 17300#14796: signal process started
+2023/05/22 19:27:58 [notice] 7916#6176: signal process started
+2023/05/22 19:28:04 [error] 15624#6636: *543 lua entry thread aborted: runtime error: ./conf/api/register.lua:10: attempt to index field 'get' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/register.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:29:46 [notice] 9244#21688: signal process started
+2023/05/22 19:29:56 [error] 16932#6032: *546 lua entry thread aborted: runtime error: ./conf/api/register.lua:10: attempt to call field 'get_req_body_data' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/register.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:30:40 [notice] 1744#8944: signal process started
+2023/05/22 19:30:51 [error] 21140#1292: *549 lua entry thread aborted: runtime error: ./conf/api/register.lua:11: attempt to index global 'cjson' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/register.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:31:27 [notice] 18228#21368: signal process started
+2023/05/22 19:31:42 [notice] 14728#18352: signal process started
+2023/05/22 19:31:48 [error] 6028#19588: *552 lua entry thread aborted: runtime error: ./conf/api/register.lua:11: bad argument #1 to 'decode' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:11: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:33:00 [error] 6028#19588: *555 lua entry thread aborted: runtime error: ./conf/api/register.lua:11: bad argument #1 to 'decode' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:11: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:37:18 [notice] 5416#19928: signal process started
+2023/05/22 19:37:23 [error] 17064#18884: *558 lua entry thread aborted: runtime error: ./conf/api/register.lua:12: bad argument #1 to 'decode' (string expected, got nil)
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:12: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:38:49 [notice] 1056#21700: signal process started
+2023/05/22 19:38:54 [error] 15328#13144: *561 lua entry thread aborted: runtime error: ./conf/api/register.lua:13: Expected value but found invalid token at character 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:13: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:39:00 [error] 15328#13144: *562 lua entry thread aborted: runtime error: ./conf/api/register.lua:13: Expected value but found invalid token at character 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:13: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:43:22 [notice] 2872#18228: signal process started
+2023/05/22 19:43:28 [error] 1960#22512: *565 lua entry thread aborted: runtime error: ./conf/api/register.lua:13: Expected value but found invalid token at character 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:13: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:44:58 [notice] 17288#18884: signal process started
+2023/05/22 19:46:29 [notice] 17376#4716: signal process started
+2023/05/22 19:46:36 [error] 21136#5212: *571 lua entry thread aborted: runtime error: ./conf/api/register.lua:13: Expected value but found invalid token at character 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'decode'
+	./conf/api/register.lua:13: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 19:50:00 [notice] 11616#1400: signal process started
+2023/05/22 19:55:39 [notice] 3424#13516: signal process started
+2023/05/22 19:57:03 [notice] 10640#21404: signal process started
+2023/05/22 19:59:01 [notice] 17156#21640: signal process started
+2023/05/22 20:00:45 [notice] 11988#11068: signal process started
+2023/05/22 20:00:50 [error] 3116#1236: *583 lua entry thread aborted: runtime error: ./conf/api/register.lua:14: bad argument #2 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/register.lua:14: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:02:15 [notice] 21508#3696: signal process started
+2023/05/22 20:02:19 [error] 13720#9148: *584 lua entry thread aborted: runtime error: ./conf/api/register.lua:15: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/register.lua:15: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:02:50 [notice] 20008#15404: signal process started
+2023/05/22 20:03:31 [notice] 21124#15728: signal process started
+2023/05/22 20:03:35 [error] 11688#4716: *586 lua entry thread aborted: runtime error: ./conf/api/register.lua:19: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/register.lua:19: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:04:01 [notice] 22496#3748: signal process started
+2023/05/22 20:13:18 [notice] 11520#8112: signal process started
+2023/05/22 20:13:20 [error] 7396#2936: *588 failed to load external Lua file "./conf/api/register.lua": ./conf/api/register.lua:28: '}' expected near ':', client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:15:20 [notice] 192#5756: signal process started
+2023/05/22 20:15:23 [error] 2448#17372: *589 failed to load external Lua file "./conf/api/register.lua": ./conf/api/register.lua:28: '}' expected near 'res', client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:15:49 [notice] 22244#11508: signal process started
+2023/05/22 20:15:53 [error] 17220#10336: *590 lua entry thread aborted: runtime error: ./conf/api/register.lua:19: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/register.lua:19: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:16:38 [notice] 10780#19548: signal process started
+2023/05/22 20:16:44 [error] 18716#15248: *591 lua entry thread aborted: runtime error: ./conf/api/register.lua:22: attempt to index local 'db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/register.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:18:26 [notice] 20060#21620: signal process started
+2023/05/22 20:18:29 [error] 16708#21716: *593 lua entry thread aborted: runtime error: ./conf/api/register.lua:25: insert not performed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	./conf/api/register.lua:25: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:24:52 [notice] 21980#22260: signal process started
+2023/05/22 20:24:56 [error] 8132#5636: *598 lua entry thread aborted: runtime error: ./conf/api/register.lua:26: insert not performed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	./conf/api/register.lua:26: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:25:45 [notice] 19996#2416: signal process started
+2023/05/22 20:25:48 [error] 9680#7976: *600 lua entry thread aborted: runtime error: ./conf/api/register.lua:20: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/register.lua:20: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:27:39 [notice] 8984#21140: signal process started
+2023/05/22 20:28:04 [notice] 2756#7276: signal process started
+2023/05/22 20:28:40 [notice] 11292#608: signal process started
+2023/05/22 20:30:56 [notice] 12488#1960: signal process started
+2023/05/22 20:31:49 [notice] 20620#14592: signal process started
+2023/05/22 20:32:43 [notice] 21372#21856: signal process started
+2023/05/22 20:32:46 [error] 15060#652: *606 lua entry thread aborted: runtime error: ./conf/api/register.lua:27: insert not performed
+stack traceback:
+coroutine 0:
+	[C]: in function 'error'
+	./conf/api/register.lua:27: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /register HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/register.html"
+2023/05/22 20:36:09 [notice] 944#14780: signal process started
+2023/05/22 23:16:20 [notice] 828#1172: signal process started
+2023/05/24 00:00:48 [notice] 604#1028: signal process started
+2023/05/24 00:00:57 [error] 20824#4208: *1 CreateFile() "./html/make_goal" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /make_goal HTTP/1.1", host: "127.0.0.1"
+2023/05/24 00:00:57 [error] 20824#4208: *3 CreateFile() "./html/make_goal" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /make_goal HTTP/1.1", host: "127.0.0.1"
+2023/05/24 00:00:57 [error] 20824#4208: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal"
+2023/05/24 00:03:30 [error] 20824#4208: *4 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Criteria' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:03:30 [error] 20824#4208: *5 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Criteria' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:03:30 [error] 20824#4208: *9 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Criteria' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:06:36 [error] 20824#4208: *11 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Criteria' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:07:03 [error] 20824#4208: *13 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Criteria' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:07:33 [notice] 17236#17256: signal process started
+2023/05/24 00:07:38 [error] 16844#11088: *15 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Description' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:09:01 [notice] 6884#19980: signal process started
+2023/05/24 00:10:43 [notice] 2924#11972: signal process started
+2023/05/24 00:10:49 [error] 4308#1816: *19 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Description' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:10:52 [error] 4308#1816: *21 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Description' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:11:22 [notice] 9508#11236: signal process started
+2023/05/24 00:11:29 [error] 11740#4780: *23 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Description' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:13:26 [notice] 20500#12108: signal process started
+2023/05/24 00:13:29 [error] 1128#1952: *25 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:12: bad argument #1 to 'say' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'say'
+	./conf/api/create_goal.lua:12: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:14:01 [notice] 16980#17000: signal process started
+2023/05/24 00:16:58 [notice] 9112#8216: signal process started
+2023/05/24 00:17:04 [error] 2916#15392: *29 lua entry thread aborted: runtime error: ./conf/api/create_goal.lua:23: attempt to concatenate field 'Description' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/create_goal.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:20:57 [notice] 16820#13568: signal process started
+2023/05/24 00:26:27 [notice] 17620#12056: signal process started
+2023/05/24 00:27:41 [notice] 18952#7356: signal process started
+2023/05/24 00:27:55 [error] 14640#18068: *38 failed to load external Lua file "./conf/api/create_goal.lua": ./conf/api/create_goal.lua:31: unexpected symbol near '}', client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:28:32 [error] 14640#18068: *39 failed to load external Lua file "./conf/api/create_goal.lua": ./conf/api/create_goal.lua:31: unexpected symbol near '}', client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:29:17 [notice] 14168#9336: signal process started
+2023/05/24 00:30:09 [notice] 7616#8256: signal process started
+2023/05/24 00:30:11 [error] 3376#8080: *42 failed to load external Lua file "./conf/api/create_goal.lua": ./conf/api/create_goal.lua:31: '}' expected near '=', client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:30:15 [error] 3376#8080: *43 failed to load external Lua file "./conf/api/create_goal.lua": ./conf/api/create_goal.lua:31: '}' expected near '=', client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:30:34 [notice] 14280#17488: signal process started
+2023/05/24 00:35:42 [notice] 13588#12300: signal process started
+2023/05/24 00:36:13 [notice] 14096#13164: signal process started
+2023/05/24 00:36:16 [error] 10408#17324: *48 lua entry thread aborted: runtime error: .//conf/api\db_connection.lua:29: bad argument #1 to 'log' (number expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'log'
+	.//conf/api\db_connection.lua:29: in function 'get_db'
+	./conf/api/create_goal.lua:6: in main chunk, client: 127.0.0.1, server: localhost, request: "POST /create-goal HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/make_goal.html"
+2023/05/24 00:39:14 [notice] 17316#8204: signal process started
+2023/05/24 00:41:42 [notice] 1588#8404: signal process started
+2023/05/24 00:42:10 [notice] 12092#19312: signal process started
+2023/05/24 00:42:24 [error] 15856#4980: *52 lua entry thread aborted: runtime error: ./conf/api/daily_logic.lua:39: attempt to call field 'return_db' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/daily_logic.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /daily_logic HTTP/1.1", host: "127.0.0.1"
+2023/05/24 00:44:25 [notice] 4252#20580: signal process started
+2023/05/24 00:48:23 [notice] 7092#12228: signal process started
+2023/05/24 20:52:03 [error] 14260#11156: *1 CreateFile() "./html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:52:03 [error] 14260#11156: *3 CreateFile() "./html/api" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /api HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:52:03 [error] 14260#11156: *1 CreateFile() "./html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/api"
+2023/05/24 20:53:09 [notice] 21344#20220: signal process started
+2023/05/24 20:54:12 [error] 9580#12996: *6 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:54:12 [error] 9580#12996: *9 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:54:28 [error] 9580#12996: *6 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=%22hong%22 HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:54:29 [error] 9580#12996: *9 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=%22hong%22 HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:54:37 [error] 9580#12996: *6 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:54:37 [error] 9580#12996: *9 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:15 [notice] 13492#4108: signal process started
+2023/05/24 20:55:42 [error] 16752#20248: *11 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:42 [error] 16752#20248: *13 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:48 [error] 16752#20248: *11 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=%22hong%22 HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:48 [error] 16752#20248: *13 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=%22hong%22 HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:51 [error] 16752#20248: *11 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:51 [error] 16752#20248: *13 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:56 [error] 16752#20248: *11 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:55:56 [error] 16752#20248: *13 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:59:03 [emerg] 7424#16768: "location" directive is not allowed here in ./conf/nginx.conf:62
+2023/05/24 20:59:38 [notice] 1220#1816: signal process started
+2023/05/24 20:59:45 [error] 10680#19556: *16 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 20:59:45 [error] 10680#19556: *18 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 21:02:01 [notice] 11148#15660: signal process started
+2023/05/24 21:02:06 [error] 9320#12272: *19 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 21:02:06 [error] 9320#12272: *21 CreateFile() "./html/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /login?userid=hong HTTP/1.1", host: "127.0.0.1"
+2023/05/24 21:02:14 [notice] 680#12792: signal process started
+2023/05/24 21:05:23 [notice] 16876#3800: signal process started
+2023/05/24 21:05:31 [error] 21480#3776: *22 lua entry thread aborted: runtime error: ./conf/api/home.lua:12: attempt to concatenate local 'userid' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/home.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "127.0.0.1"
+2023/05/24 21:05:32 [error] 21480#3776: *25 lua entry thread aborted: runtime error: ./conf/api/home.lua:12: attempt to concatenate local 'userid' (a nil value)
+stack traceback:
+coroutine 0:
+	./conf/api/home.lua: in main chunk, client: 127.0.0.1, server: localhost, request: "GET /login HTTP/1.1", host: "127.0.0.1"
+2023/05/24 21:45:52 [error] 21480#3776: *42 CreateFile() "./html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home?userid=kim HTTP/1.1", host: "127.0.0.1"
+2023/05/24 21:45:52 [error] 21480#3776: *44 CreateFile() "./html/home" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /home?userid=kim HTTP/1.1", host: "127.0.0.1"
+2023/05/24 22:22:37 [notice] 19580#7520: signal process started

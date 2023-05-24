@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#register").click(function(e){
+                e.preventDefault();
+                var data = {
+                    "id": $("#id").val(),
+                    "pw": $("#pw").val()
+                };
+                
+                $.ajax({
+                    type: "POST",
+                    url: "/register",
+                    data: JSON.stringify(data),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function(response){
+                        console.log(response);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <form id="registerForm">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <label for="pw">Password:</label><br>
+        <input type="password" id="pw" name="pw"><br>
+        <input type="submit" id="register" value="Register">
+    </form>
+</body>
+</html>
