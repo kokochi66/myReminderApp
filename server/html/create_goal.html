@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Goal 작성하기</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h1>Goal 작성하기</h1>
+  <form id="goalForm">
+    <label for="userId">사용자 ID:</label>
+    <input type="text" id="userId" name="userId" required><br><br>
+    
+    <label for="startDate">시작일:</label>
+    <input type="date" id="startDate" name="startDate" required><br><br>
+    
+    <label for="endDate">종료일:</label>
+    <input type="date" id="endDate" name="endDate" required><br><br>
+    
+    <label for="type">타입:</label>
+    <select id="type" name="type" required>
+      <option value="1">수면</option>
+      <option value="2">운동</option>
+      <option value="3">공부</option>
+    </select><br><br>
+    
+    <label for="description">설명:</label><br>
+    <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+    
+    <label for="criteria">기준:</label>
+    <input type="number" id="criteria" name="criteria" required><br><br>
+    
+    <input type="submit" value="작성하기">
+  </form>
+
+  <script>
+    $(document).ready(function() {
+      $("#goalForm").submit(function(event) {
+        event.preventDefault(); // 폼의 기본 동작 방지
+
+        var formData = {
+          userId: $("#userId").val(),
+          startDate: $("#startDate").val(),
+          endDate: $("#endDate").val(),
+          type: $("#type").val(),
+          description: $("#description").val(),
+          criteria: $("#criteria").val()
+        };
+
+        $.ajax({
+          type: "POST",
+          url: "/create_goal",
+          contentType: "application/json",
+          data: JSON.stringify(formData),
+          success: function(response) {
+            alert("Goal이 성공적으로 작성되었습니다.");
+            // 여기에 추가적인 동작을 구현하세요 (예: 페이지 리로드 등)
+          },
+          error: function(error) {
+            alert("Goal 작성에 실패했습니다. 다시 시도해주세요.");
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
